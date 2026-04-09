@@ -1,0 +1,15 @@
+<h2>Student Form</h2>
+
+<form method="POST">
+    {% csrf_token %}
+    Name: <input type="text" name="name"><br><br>
+    Marks: <input type="number" name="marks"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<h3>Student List</h3>
+<ul>
+{% for s in students %}
+    <li>{{ s.name }} - {{ s.marks }}</li>
+{% endfor %}
+</ul>
