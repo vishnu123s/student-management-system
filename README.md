@@ -88,3 +88,19 @@ Add screenshots here.
 
 Soddala Vishnu
 
+
+
+\## Screenshots
+
+
+
+\### Add Student
+
+!\[Add Student](images/add-student.png)
+
+
+
+\### Student List
+
+!\[Student List](images/student-list.png)
+
